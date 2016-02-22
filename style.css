@@ -1,0 +1,14 @@
+h1{
+  margin: 0 auto;
+  font-size: 2em;
+  width: 20%;
+}
+li{
+  border: 1px solid black;
+  margin: .5em auto;
+  padding: .5em;
+  width: 75%;
+}
+.selected{
+  background-color: green;
+}
