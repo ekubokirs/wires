@@ -12,3 +12,20 @@ li{
 .selected{
   background-color: green;
 }
+.mobile{
+  background-color: orange;
+}
+button:nth-child(3n){
+  visibility: visible;
+}
+.hide{
+  visibility: hidden;
+}
+.show{
+  display: inline;
+}
+.collapse{
+  display: none;
+  height: 0;
+  width: 0;
+}
