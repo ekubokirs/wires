@@ -18,9 +18,14 @@ h1{
 .selected{
   background-color: green;
 }
-
 button{
-  margin: 10px;
+  margin: .5em 15em;
+  width: 10em;
+}
+.back{
+  float: left;
+}
+.next{
   float: right;
 }
 /*ol{

@@ -38,9 +38,23 @@ $(document).ready(function(){
     $("#b3").click(function(){
       $("#q3").addClass('hide');
       $('#q4').removeClass('hide');
-      $('#bl').removeClass("buttonHide");
     });
-    
+
+    $("#bb1").click(function(){
+      $("#q2").addClass('hide');
+      $('#q1').removeClass('hide');
+    });
+
+    $("#bb2").click(function(){
+      $("#q3").addClass('hide');
+      $('#q2').removeClass('hide');
+    });
+
+    $("#bb3").click(function(){
+      $("#q4").addClass('hide');
+      $('#q3').removeClass('hide');
+    });
+
     $(".answers").click(selectAnswer);
     // var start = 0;
     // for (i=start; i<start+3; i++){
