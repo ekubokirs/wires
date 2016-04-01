@@ -1,0 +1,30 @@
+.results{
+  margin: 2%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+}
+.result{
+  width: 20%;
+  /*float: left;*/
+  /*margin: 2% auto;*/
+  border: 1px solid black;
+  display: inline-block;
+  /*height: 10rem;*/
+}
+ul{
+  list-style: disc;
+  text-align: left;
+  margin: 5%;
+  margin-left: 15%;
+}
+h2{
+  font-size: 2rem;
+  height: 2.5rem;
+}
+a{
+  margin: 0 auto;
+}
+.hidden{
+  visibility: hidden;
+}
