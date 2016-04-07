@@ -13,9 +13,12 @@ $(document).ready(function(){
     var b = $("#selector").val();
     if (b === "Breed Compare"){
       $(".select").addClass("hidden");
+      $(".image").addClass("hidden");
     }
     else{
       $(".select").removeClass("hidden");
+      $(".image").removeClass("hidden");
+      $(".image").attr("src", 'images/puppy4.jpg');
     }
   });
 });
