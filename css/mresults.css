@@ -1,0 +1,31 @@
+ul.breedElements{
+  text-align: left;
+}
+.result{
+  width: 90%;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+}
+li{
+  border: none;
+  list-style: disc;
+  text-align: left;
+}
+.resultsMenu{
+  list-style: none;
+  border: none;
+}
+h2{
+  font-size: 2em;
+}
+img{
+  width: 90%;
+  height: auto;
+  /*margin: 0 auto;*/
+}
+.criteria{
+  width: 50%;
+  float:left;
+  list-style: disc;
+}
