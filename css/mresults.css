@@ -1,11 +1,13 @@
 ul.breedElements{
   text-align: left;
+  margin-left: 7%;
 }
 .result{
   width: 90%;
   border: 1px solid black;
   margin: 0 auto;
   text-align: center;
+  clear: both;
 }
 li{
   border: none;
@@ -15,6 +17,10 @@ li{
 .resultsMenu{
   list-style: none;
   border: none;
+}
+li.resultsMenu{
+  width: 33%;
+  float: left;
 }
 h2{
   font-size: 2em;

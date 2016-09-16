@@ -16,7 +16,7 @@ $(document).ready(function(){
       }
     }
     $(".answers").click(selectAnswer);
-    $("ul").append("<button onclick=\"location.href='results.html'\">Submit</button>");
+    $("ul").append("<button onclick=\"location.href='mresults.html'\">Submit</button>");
   }
   else{
     $('#question').addClass("hide");
